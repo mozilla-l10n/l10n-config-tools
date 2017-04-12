@@ -1,0 +1,21 @@
+{
+  "name": "l10n-config-tools",
+  "version": "0.0.1",
+  "description": "Validate Mozilla localization project configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "l10n-config-lint": "l10n-config-lint.js"
+  },
+  "keywords": [
+    "l10n",
+    "mozilla"
+  ],
+  "author": "Axel Hecht <axel@pike.org>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "toml": "^2.3.2"
+  }
+}
